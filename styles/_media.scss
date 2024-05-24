@@ -9,7 +9,8 @@
 }
 @media (max-width: 540px) {
 	.main {
-		min-width: 753px;
+		min-width: unset;
+		height: 100vh;
 	}
 	.main__title {
 		padding: 0;

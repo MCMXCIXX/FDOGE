@@ -83,6 +83,7 @@ a {
   align-items: center;
   min-height: 1080px;
   background-position: bottom center;
+  overflow: hidden;
 }
 
 .main__title {
@@ -141,7 +142,8 @@ a {
 }
 @media (max-width: 540px) {
   .main {
-    min-width: 753px;
+    min-width: unset;
+    height: 100vh;
   }
   .main__title {
     padding: 0;
